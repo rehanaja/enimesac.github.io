@@ -39,6 +39,22 @@
     font-family: Oswald;
     letter-spacing: 3px;
     color: black!important;
+    display: inline-block;
+}
+
+.nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width .3s;
+    margin-top: 2px;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+    transition: width 0.3s;
 }
 
 
