@@ -1,0 +1,13 @@
+.owl-carousel .owl-item img {
+  width: 150px !important;
+  margin: auto !important;
+}
+
+.owl-carousel .owl-item {
+  text-align: center !important;
+}
+
+.owl-carousel .owl-item.active {
+  width: 200px !important;
+  transition: 1s !important;
+}
